@@ -137,7 +137,7 @@ export const siteConfig: SiteConfig = {
     titleTemplate: '{{name}} | {{title}}',
     defaultDescription: 'CV di Alessio Ballini - Full-Stack Developer & AI Specialist',
     keywords: ['python developer', 'full-stack', 'AI', 'machine learning', 'NLP', 'flask', 'fastapi', 'portfolio'],
-    siteUrl: 'https://live-resume.vercel.app',
+    siteUrl: 'https://live-resume-2721.d.kiloapps.io',
     locale: 'it',
   },
 
