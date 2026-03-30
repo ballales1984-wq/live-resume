@@ -88,6 +88,7 @@ export const skillCategories: string[] = [
   'Databases',    // Database technologies
   'DevOps',       // DevOps tools & practices
   'AI/ML',        // AI and Machine Learning
+  'Audio/Music',  // Audio programming and music tech
   'Tools',        // Development tools
 ];
 
@@ -116,10 +117,28 @@ export const skills: Skill[] = [
     yearsOfExperience: 4,
   },
   {
+    name: 'TypeScript',
+    level: 78,
+    category: 'Languages',
+    yearsOfExperience: 2,
+  },
+  {
     name: 'SQL',
     level: 85,
     category: 'Languages',
     yearsOfExperience: 5,
+  },
+  {
+    name: 'C++',
+    level: 65,
+    category: 'Languages',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Lua',
+    level: 60,
+    category: 'Languages',
+    yearsOfExperience: 1,
   },
   {
     name: 'HTML5/CSS3',
@@ -131,6 +150,30 @@ export const skills: Skill[] = [
   // ---------------------------------------------------------------------------
   // FRONTEND
   // ---------------------------------------------------------------------------
+  {
+    name: 'React',
+    level: 78,
+    category: 'Frontend',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Next.js',
+    level: 75,
+    category: 'Frontend',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Angular',
+    level: 72,
+    category: 'Frontend',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Tailwind CSS',
+    level: 78,
+    category: 'Frontend',
+    yearsOfExperience: 2,
+  },
   {
     name: 'JavaScript (Vanilla)',
     level: 85,
@@ -160,6 +203,12 @@ export const skills: Skill[] = [
     yearsOfExperience: 4,
   },
   {
+    name: 'FastAPI',
+    level: 80,
+    category: 'Backend',
+    yearsOfExperience: 2,
+  },
+  {
     name: 'SQLAlchemy',
     level: 88,
     category: 'Backend',
@@ -177,6 +226,12 @@ export const skills: Skill[] = [
     category: 'Backend',
     yearsOfExperience: 3,
   },
+  {
+    name: 'WebSocket',
+    level: 75,
+    category: 'Backend',
+    yearsOfExperience: 2,
+  },
 
   // ---------------------------------------------------------------------------
   // DATABASES
@@ -192,6 +247,18 @@ export const skills: Skill[] = [
     level: 85,
     category: 'Databases',
     yearsOfExperience: 4,
+  },
+  {
+    name: 'Redis',
+    level: 75,
+    category: 'Databases',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'SQLite',
+    level: 80,
+    category: 'Databases',
+    yearsOfExperience: 3,
   },
 
   // ---------------------------------------------------------------------------
@@ -221,6 +288,52 @@ export const skills: Skill[] = [
     category: 'AI/ML',
     yearsOfExperience: 3,
   },
+  {
+    name: 'scikit-learn',
+    level: 75,
+    category: 'AI/ML',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Hugging Face Transformers',
+    level: 70,
+    category: 'AI/ML',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'spaCy',
+    level: 72,
+    category: 'AI/ML',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Computer Vision',
+    level: 70,
+    category: 'AI/ML',
+    yearsOfExperience: 1,
+  },
+
+  // ---------------------------------------------------------------------------
+  // AUDIO/MUSIC
+  // ---------------------------------------------------------------------------
+  {
+    name: 'JUCE / VST3',
+    level: 65,
+    category: 'Audio/Music',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'Web Audio API',
+    level: 70,
+    category: 'Audio/Music',
+    yearsOfExperience: 1,
+  },
+  {
+    name: 'MIDI',
+    level: 70,
+    category: 'Audio/Music',
+    yearsOfExperience: 1,
+  },
 
   // ---------------------------------------------------------------------------
   // DEVOPS
@@ -243,6 +356,12 @@ export const skills: Skill[] = [
     category: 'DevOps',
     yearsOfExperience: 2,
   },
+  {
+    name: 'GitHub Actions',
+    level: 75,
+    category: 'DevOps',
+    yearsOfExperience: 1,
+  },
 
   // ---------------------------------------------------------------------------
   // TOOLS
@@ -264,6 +383,12 @@ export const skills: Skill[] = [
     level: 82,
     category: 'Tools',
     yearsOfExperience: 3,
+  },
+  {
+    name: 'Pygame',
+    level: 72,
+    category: 'Tools',
+    yearsOfExperience: 1,
   },
 ];
 
