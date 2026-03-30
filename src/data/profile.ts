@@ -96,36 +96,35 @@ export const profile: Profile = {
   // -------------------------------------------------------------------------
   // BASIC INFO (Required)
   // -------------------------------------------------------------------------
-  name: 'Alex Johnson',
-  title: 'Senior Software Engineer',
-  photo: '/images/profile.jpg', // Set to '' to hide photo
-  email: 'alex.johnson@example.com',
-  location: 'San Francisco, CA',
+  name: 'Alessio Ballini',
+  title: 'Full-Stack Developer & AI Specialist',
+  photo: '/images/profile.jpg',
+  email: 'ballales1984@gmail.com',
+  location: 'Venezia, Italia',
 
   // -------------------------------------------------------------------------
   // CONTACT & SOCIAL (Optional - remove or set to undefined if not needed)
   // -------------------------------------------------------------------------
-  phone: '+1 (555) 123-4567',
-  website: 'https://alexjohnson.dev',
-  linkedin: 'https://linkedin.com/in/alexjohnson',
-  github: 'https://github.com/alexjohnson',
-  twitter: 'https://twitter.com/alexjohnson',
+  phone: '+39 349 310 6720',
+  linkedin: 'https://linkedin.com/in/alessio-ballini-584749301',
+  github: 'https://github.com/ballales1984-wq',
 
   // -------------------------------------------------------------------------
   // PROFESSIONAL SUMMARY
   // Keep this concise: 2-4 sentences that capture who you are professionally
   // -------------------------------------------------------------------------
-  summary: `Results-driven software engineer with 8+ years of experience building scalable web applications. Passionate about clean code, performance optimization, and mentoring junior developers. Expert in React, TypeScript, and cloud architecture.`,
+  summary: `Python Backend & AI/Quant Developer specializzato in sistemi modulari, API scalabili e integrazione AI. Esperienza in ML, architetture event-driven, containerizzazione Docker, CI/CD, database SQL e sviluppo di dashboard real-time. Founder di "Assistente Intelligente", una community platform etica con AI per il miglioramento della salute mentale.`,
 
   // -------------------------------------------------------------------------
   // KEY HIGHLIGHTS
   // 3-5 achievement statements with metrics when possible
   // -------------------------------------------------------------------------
   highlights: [
-    'Led development of platform serving 1M+ users',
-    'Reduced page load time by 60%',
-    'Managed team of 5 engineers',
-    'Speaker at 3 tech conferences',
+    'Founder di "Assistente Intelligente" - community platform etica con AI (10K+ righe codice)',
+    'Sistema auth rivoluzionario basato su fingerprint',
+    'AI content moderation con NLP e Sentiment Analysis',
+    'Architetto community platform multi-lingua (7 lingue, i18n)',
+    '100+ pagine documentazione tecnica',
   ],
 };
 

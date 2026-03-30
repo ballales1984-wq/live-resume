@@ -129,16 +129,11 @@ export interface Project {
  */
 export const projectCategories: string[] = [
   'All',
-  'Web Application',
+  'AI/ML',
   'SaaS',
-  'Mobile App',
+  'Web Application',
+  'Open Source',
   'Data Visualization',
-  'Developer Tools',
-  // Add more categories here:
-  // 'E-Commerce',
-  // 'AI/ML',
-  // 'Open Source',
-  // 'Personal Project',
 ];
 
 /**
@@ -151,168 +146,115 @@ export const projectCategories: string[] = [
  */
 export const projects: Project[] = [
   // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 1
+  // FEATURED PROJECT 1 - Assistente Intelligente
   // ---------------------------------------------------------------------------
   {
     id: 'proj-1',
-    slug: 'e-commerce-platform',
-    title: 'E-Commerce Platform',
+    slug: 'assistente-intelligente',
+    title: 'Assistente Intelligente',
     description:
-      'Full-stack e-commerce solution with real-time inventory management and payment processing.',
-    longDescription: `Built a comprehensive e-commerce platform from scratch, featuring real-time inventory tracking, 
-    secure payment processing with Stripe, and an admin dashboard for order management. The platform handles 
-    thousands of concurrent users and processes over $2M in transactions monthly.`,
-    thumbnail: '/projects/ecommerce-thumb.jpg',
-    images: [
-      '/projects/ecommerce-1.jpg',
-      '/projects/ecommerce-2.jpg',
-      '/projects/ecommerce-3.jpg',
-    ],
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Redis', 'AWS'],
-    category: 'Web Application',
-    role: 'Lead Developer',
-    duration: '6 months',
-    liveUrl: 'https://example-ecommerce.com',
-    githubUrl: 'https://github.com/alexjohnson/ecommerce',
+      'Community platform etica con AI per il miglioramento della salute mentale. 7 lingue, content moderation AI, sistema auth fingerprint-based.',
+    longDescription: `Piattaforma community open source che utilizza AI per migliorare la salute mentale globale. 
+    Caratteristiche: sistema di autenticazione rivoluzionario basato su fingerprint, content moderation tramite NLP e Sentiment Analysis, 
+    supporto nativo per 7 lingue con sistema i18n, architettura scalabile con potenziale reach di 4.6 miliardi di utenti.`,
+    thumbnail: '/projects/assistente-thumb.jpg',
+    images: [],
+    technologies: ['Python', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'HTML5', 'CSS3', 'JavaScript', 'NLP', 'Docker', 'JWT'],
+    category: 'AI/ML',
+    role: 'Founder & Lead Developer',
+    duration: 'Ongoing',
+    liveUrl: 'https://assistente-intelligente.onrender.com',
+    githubUrl: 'https://github.com/ballales1984-wq/Assistente-Intelligente',
     featured: true,
     highlights: [
-      'Processed $2M+ in transactions',
-      '99.9% uptime over 2 years',
-      '50ms average API response time',
-      'Handles 10K+ concurrent users',
+      '10K+ righe di codice',
+      '7 lingue supportate (i18n)',
+      '4.6B reach potenziale',
+      'AI content moderation con NLP',
+      'Sistema auth fingerprint-based',
+      '100+ pagine documentazione tecnica',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 2
+  // FEATURED PROJECT 2 - Quantum AI Trading System
   // ---------------------------------------------------------------------------
   {
     id: 'proj-2',
-    slug: 'task-management-app',
-    title: 'TaskFlow - Task Management',
+    slug: 'quantum-ai-trading',
+    title: 'Quantum AI Trading System',
     description:
-      'Collaborative task management application with real-time updates and team features.',
-    longDescription: `A modern task management application designed for remote teams. Features include 
-    real-time collaboration, Kanban boards, time tracking, and integrations with popular tools like 
-    Slack and GitHub.`,
-    thumbnail: '/projects/taskflow-thumb.jpg',
-    images: ['/projects/taskflow-1.jpg', '/projects/taskflow-2.jpg'],
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Docker'],
-    category: 'SaaS',
-    role: 'Full-Stack Developer',
-    duration: '4 months',
-    liveUrl: 'https://taskflow-demo.com',
-    githubUrl: 'https://github.com/alexjohnson/taskflow',
+      'Sistema di trading quantistico con AI per analisi predittiva dei mercati finanziari.',
+    longDescription: `Sistema avanzato di trading che integra algoritmi quantistici con intelligenza artificiale 
+    per l'analisi predittiva dei mercati. Utilizza pattern recognition e machine learning per identificare opportunità di trading.`,
+    thumbnail: '/projects/quantum-trading-thumb.jpg',
+    images: [],
+    technologies: ['Python', 'Machine Learning', 'NLP', 'Pattern Recognition', 'PostgreSQL', 'Docker'],
+    category: 'AI/ML',
+    role: 'Solo Developer',
+    duration: 'Ongoing',
+    githubUrl: 'https://github.com/ballales1984-wq',
     featured: true,
     highlights: [
-      '5K+ active users',
-      'Real-time collaboration',
-      '15+ third-party integrations',
-      '4.8/5 user rating',
+      'Analisi predittiva con AI',
+      'Pattern recognition per mercati',
+      'Dashboard real-time',
+      'Architettura modulare',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // FEATURED PROJECT 3
+  // FEATURED PROJECT 3 - Pythonita-IA
   // ---------------------------------------------------------------------------
   {
     id: 'proj-3',
-    slug: 'analytics-dashboard',
-    title: 'DataViz Analytics Dashboard',
+    slug: 'pythonita-ia',
+    title: 'Pythonita-IA',
     description:
-      'Interactive analytics dashboard with customizable charts and real-time data visualization.',
-    thumbnail: '/projects/analytics-thumb.jpg',
-    images: ['/projects/analytics-1.jpg', '/projects/analytics-2.jpg'],
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI', 'PostgreSQL'],
-    category: 'Data Visualization',
-    role: 'Frontend Lead',
-    duration: '3 months',
-    // liveUrl: undefined,  // No live demo
-    // githubUrl: undefined,  // Private repository
+      'Piattaforma per automazione intelligente con integrazione AI.',
+    longDescription: `Progetto orientato all'automazione intelligente utilizzando Python e AI. 
+    Sviluppato per semplificare processi complessi attraverso l'apprendimento automatico e l'analisi dati.`,
+    thumbnail: '/projects/pythonita-thumb.jpg',
+    images: [],
+    technologies: ['Python', 'Flask', 'SQLAlchemy', 'Machine Learning', 'Docker'],
+    category: 'AI/ML',
+    role: 'Solo Developer',
+    duration: 'Ongoing',
+    githubUrl: 'https://github.com/ballales1984-wq',
     featured: true,
     highlights: [
-      '20+ chart types',
-      'Export to PDF/Excel',
-      'Custom report builder',
-      'Role-based access control',
+      'Automazione intelligente',
+      'Integrazione AI',
+      'Architettura modulare e scalabile',
     ],
   },
 
   // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
+  // PROJECT 4 - ManagerSchool
   // ---------------------------------------------------------------------------
   {
     id: 'proj-4',
-    slug: 'mobile-fitness-app',
-    title: 'FitTrack Mobile App',
+    slug: 'managerschool',
+    title: 'ManagerSchool',
     description:
-      'Cross-platform fitness tracking application with workout plans and progress analytics.',
-    thumbnail: '/projects/fitness-thumb.jpg',
-    images: ['/projects/fitness-1.jpg', '/projects/fitness-2.jpg'],
-    technologies: ['React Native', 'TypeScript', 'Firebase', 'Node.js'],
-    category: 'Mobile App',
-    role: 'Mobile Developer',
-    duration: '5 months',
-    // liveUrl: undefined,  // App store link would go here
-    githubUrl: 'https://github.com/alexjohnson/fittrack',
+      'Sistema di gestione scolastica con dashboard e API REST.',
+    longDescription: `Applicazione web per la gestione scolastica con funzionalità complete di amministrazione, 
+    gestione studenti, corsi e valutazioni. Sviluppato con stack Python/Flask e database PostgreSQL.`,
+    thumbnail: '/projects/managerschool-thumb.jpg',
+    images: [],
+    technologies: ['Python', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'HTML5', 'CSS3', 'JavaScript'],
+    category: 'Web Application',
+    role: 'Solo Developer',
+    duration: '3 months',
+    githubUrl: 'https://github.com/ballales1984-wq',
     featured: false,
     highlights: [
-      'iOS & Android support',
-      'Offline-first architecture',
-      'Wearable device integration',
-      '10K+ downloads',
+      'Gestione completa studenti e corsi',
+      'Dashboard amministrativa',
+      'API REST',
+      'Database PostgreSQL',
     ],
   },
-
-  // ---------------------------------------------------------------------------
-  // NON-FEATURED PROJECT
-  // ---------------------------------------------------------------------------
-  {
-    id: 'proj-5',
-    slug: 'open-source-cli',
-    title: 'DevToolkit CLI',
-    description:
-      'Open-source command-line toolkit for developers with code generation and automation.',
-    thumbnail: '/projects/cli-thumb.jpg',
-    images: ['/projects/cli-1.jpg'],
-    technologies: ['Go', 'Cobra', 'Docker'],
-    category: 'Developer Tools',
-    role: 'Creator & Maintainer',
-    duration: 'Ongoing',
-    // liveUrl: undefined,  // CLI tools usually don't have live URLs
-    githubUrl: 'https://github.com/alexjohnson/devtoolkit',
-    featured: false,
-    highlights: [
-      '2K+ GitHub stars',
-      '500+ contributors',
-      'Used by 100+ companies',
-      'Weekly releases',
-    ],
-  },
-
-  // ---------------------------------------------------------------------------
-  // ADD MORE PROJECTS HERE
-  // ---------------------------------------------------------------------------
-  // {
-  //   id: 'proj-6',
-  //   slug: 'your-project-slug',
-  //   title: 'Your Project Title',
-  //   description: 'Short description of your project...',
-  //   longDescription: 'Detailed description...',  // Optional
-  //   thumbnail: '/projects/your-project-thumb.jpg',
-  //   images: ['/projects/your-project-1.jpg'],
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  //   category: 'Web Application',
-  //   role: 'Your Role',
-  //   duration: '3 months',
-  //   liveUrl: 'https://your-project.com',  // Optional
-  //   githubUrl: 'https://github.com/you/project',  // Optional
-  //   featured: false,
-  //   highlights: [
-  //     'Highlight 1 with metrics',
-  //     'Highlight 2',
-  //   ],
-  // },
 ];
 
 // =============================================================================

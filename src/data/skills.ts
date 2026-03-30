@@ -86,13 +86,9 @@ export const skillCategories: string[] = [
   'Frontend',     // Frontend frameworks & libraries
   'Backend',      // Backend frameworks & technologies
   'Databases',    // Database technologies
-  'Cloud',        // Cloud platforms & services
   'DevOps',       // DevOps tools & practices
-  // Add more categories here:
-  // 'Mobile',
-  // 'Design',
-  // 'Soft Skills',
-  // 'Other',
+  'AI/ML',        // AI and Machine Learning
+  'Tools',        // Development tools
 ];
 
 /**
@@ -108,82 +104,76 @@ export const skills: Skill[] = [
   // PROGRAMMING LANGUAGES
   // ---------------------------------------------------------------------------
   {
-    name: 'TypeScript',
-    level: 95,
+    name: 'Python',
+    level: 90,
     category: 'Languages',
     yearsOfExperience: 5,
   },
   {
     name: 'JavaScript',
-    level: 95,
-    category: 'Languages',
-    yearsOfExperience: 8,
-  },
-  {
-    name: 'Python',
     level: 80,
     category: 'Languages',
     yearsOfExperience: 4,
   },
   {
-    name: 'Go',
-    level: 65,
+    name: 'SQL',
+    level: 85,
     category: 'Languages',
-    yearsOfExperience: 2,
+    yearsOfExperience: 5,
+  },
+  {
+    name: 'HTML5/CSS3',
+    level: 85,
+    category: 'Languages',
+    yearsOfExperience: 5,
   },
 
   // ---------------------------------------------------------------------------
   // FRONTEND
   // ---------------------------------------------------------------------------
   {
-    name: 'React',
-    level: 95,
-    category: 'Frontend',
-    yearsOfExperience: 6,
-  },
-  {
-    name: 'Next.js',
-    level: 90,
+    name: 'JavaScript (Vanilla)',
+    level: 85,
     category: 'Frontend',
     yearsOfExperience: 4,
   },
   {
-    name: 'Tailwind CSS',
+    name: 'HTML5',
     level: 90,
     category: 'Frontend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 5,
   },
   {
-    name: 'Vue.js',
-    level: 70,
+    name: 'CSS3',
+    level: 85,
     category: 'Frontend',
-    yearsOfExperience: 2,
+    yearsOfExperience: 5,
   },
 
   // ---------------------------------------------------------------------------
   // BACKEND
   // ---------------------------------------------------------------------------
   {
-    name: 'Node.js',
+    name: 'Flask',
     level: 90,
     category: 'Backend',
-    yearsOfExperience: 6,
+    yearsOfExperience: 4,
   },
   {
-    name: 'Express',
+    name: 'SQLAlchemy',
     level: 88,
     category: 'Backend',
-    yearsOfExperience: 5,
+    yearsOfExperience: 4,
   },
   {
-    name: 'Django',
-    level: 75,
+    name: 'REST API',
+    level: 90,
     category: 'Backend',
-    yearsOfExperience: 3,
+    yearsOfExperience: 4,
   },
   {
-    name: 'GraphQL',
-    level: 80,
+    name: 'JWT Authentication',
+    level: 85,
     category: 'Backend',
     yearsOfExperience: 3,
   },
@@ -193,60 +183,88 @@ export const skills: Skill[] = [
   // ---------------------------------------------------------------------------
   {
     name: 'PostgreSQL',
-    level: 85,
-    category: 'Databases',
-    yearsOfExperience: 5,
-  },
-  {
-    name: 'MongoDB',
-    level: 80,
+    level: 88,
     category: 'Databases',
     yearsOfExperience: 4,
   },
   {
-    name: 'Redis',
-    level: 75,
+    name: 'SQLAlchemy ORM',
+    level: 85,
     category: 'Databases',
+    yearsOfExperience: 4,
+  },
+
+  // ---------------------------------------------------------------------------
+  // AI/ML
+  // ---------------------------------------------------------------------------
+  {
+    name: 'NLP',
+    level: 80,
+    category: 'AI/ML',
+    yearsOfExperience: 3,
+  },
+  {
+    name: 'Sentiment Analysis',
+    level: 78,
+    category: 'AI/ML',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Pattern Recognition',
+    level: 75,
+    category: 'AI/ML',
+    yearsOfExperience: 2,
+  },
+  {
+    name: 'Machine Learning',
+    level: 75,
+    category: 'AI/ML',
     yearsOfExperience: 3,
   },
 
   // ---------------------------------------------------------------------------
-  // CLOUD & DEVOPS
+  // DEVOPS
   // ---------------------------------------------------------------------------
   {
-    name: 'AWS',
-    level: 85,
-    category: 'Cloud',
-    yearsOfExperience: 4,
-  },
-  {
     name: 'Docker',
-    level: 85,
+    level: 82,
     category: 'DevOps',
-    yearsOfExperience: 4,
+    yearsOfExperience: 3,
   },
   {
-    name: 'Kubernetes',
-    level: 70,
+    name: 'CI/CD',
+    level: 80,
     category: 'DevOps',
     yearsOfExperience: 2,
   },
   {
-    name: 'CI/CD',
+    name: 'Render',
     level: 85,
     category: 'DevOps',
-    yearsOfExperience: 4,
+    yearsOfExperience: 2,
   },
 
   // ---------------------------------------------------------------------------
-  // ADD MORE SKILLS HERE
+  // TOOLS
   // ---------------------------------------------------------------------------
-  // {
-  //   name: 'Your Skill',
-  //   level: 85,
-  //   category: 'Category Name',
-  //   yearsOfExperience: 3,
-  // },
+  {
+    name: 'Git',
+    level: 88,
+    category: 'Tools',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'GitHub',
+    level: 88,
+    category: 'Tools',
+    yearsOfExperience: 4,
+  },
+  {
+    name: 'pytest',
+    level: 82,
+    category: 'Tools',
+    yearsOfExperience: 3,
+  },
 ];
 
 /**
@@ -257,11 +275,8 @@ export const skills: Skill[] = [
  * List the languages you speak and your proficiency level.
  */
 export const languages: Language[] = [
-  { name: 'English', level: 'Native' },
-  { name: 'Spanish', level: 'Professional' },
-  { name: 'French', level: 'Basic' },
-  // Add more languages here:
-  // { name: 'German', level: 'Intermediate' },
+  { name: 'Italian', level: 'Native' },
+  { name: 'English', level: 'Professional' },
 ];
 
 // =============================================================================

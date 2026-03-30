@@ -121,30 +121,33 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-1',
-    title: 'Senior Software Engineer',
-    company: 'TechCorp Inc.',
-    // companyLogo: '/logos/techcorp.png',  // Uncomment and add logo if you have one
-    location: 'San Francisco, CA',
+    title: 'Founder & Full-Stack Developer',
+    company: 'Assistente Intelligente',
+    location: 'Venezia, Italia',
     type: 'full-time',
-    startDate: '2022-01',
-    // endDate: undefined,  // Omit or undefined for current position
+    startDate: '2024-01',
     current: true,
     description:
-      'Lead development of customer-facing web applications and mentor junior developers.',
+      'Founder e lead developer di una community platform etica con AI per il miglioramento della salute mentale globale.',
     achievements: [
-      'Architected microservices platform handling 10M+ requests/day',
-      'Reduced deployment time by 80% through CI/CD improvements',
-      'Mentored 3 junior developers to mid-level positions',
-      'Led migration from monolith to microservices architecture',
+      'Costruito sistema auth rivoluzionario basato su fingerprint',
+      'Implementato AI content moderation con NLP e Sentiment Analysis',
+      'Architetto community platform con 10K+ righe di codice',
+      'Sistema multi-lingua nativo (7 lingue, 4.6B reach potenziale)',
+      '100+ pagine di documentazione tecnica',
     ],
     technologies: [
-      'React',
-      'TypeScript',
-      'Node.js',
+      'Python',
+      'Flask',
+      'SQLAlchemy',
       'PostgreSQL',
-      'AWS',
+      'HTML5',
+      'CSS3',
+      'JavaScript',
       'Docker',
-      'Kubernetes',
+      'Render',
+      'JWT',
+      'NLP',
     ],
   },
 
@@ -153,65 +156,33 @@ export const experience: Experience[] = [
   // ---------------------------------------------------------------------------
   {
     id: 'exp-2',
-    title: 'Software Engineer',
-    company: 'StartupXYZ',
-    location: 'San Francisco, CA',
-    type: 'full-time',
-    startDate: '2019-03',
-    endDate: '2021-12',
-    current: false,
-    description: 'Full-stack development for a fast-growing SaaS platform.',
-    achievements: [
-      'Built real-time collaboration features used by 50K+ users',
-      'Implemented automated testing reducing bugs by 40%',
-      'Optimized database queries improving response time by 60%',
-    ],
-    technologies: ['React', 'Python', 'Django', 'PostgreSQL', 'Redis', 'AWS'],
-  },
-
-  // ---------------------------------------------------------------------------
-  // EARLIER POSITION
-  // ---------------------------------------------------------------------------
-  {
-    id: 'exp-3',
-    title: 'Junior Developer',
-    company: 'WebAgency Co.',
-    location: 'Los Angeles, CA',
-    type: 'full-time',
-    startDate: '2016-06',
-    endDate: '2019-02',
-    current: false,
+    title: 'Python Backend & AI/Quant Developer',
+    company: 'Freelance',
+    location: 'Venezia, Italia',
+    type: 'freelance',
+    startDate: '2023-01',
+    current: true,
     description:
-      'Developed custom web solutions for various clients across different industries.',
+      'Sviluppo sistemi modulari, API scalabili e integrazione AI per clienti. Specializzazione in ML, architetture event-driven e dashboard real-time.',
     achievements: [
-      'Delivered 20+ client projects on time and within budget',
-      'Introduced component-based architecture improving code reuse',
-      'Created internal tools saving 10 hours/week of manual work',
+      'Sviluppato Quantum AI Trading System con analisi predittiva',
+      'Creato Pythonita-IA per automazione intelligente',
+      'Costruito ManagerSchool per gestione scolastica',
+      'Implementato pattern recognition per analisi dati',
     ],
-    technologies: ['JavaScript', 'React', 'PHP', 'MySQL', 'WordPress'],
+    technologies: [
+      'Python',
+      'Flask',
+      'SQLAlchemy',
+      'PostgreSQL',
+      'Docker',
+      'CI/CD',
+      'Git',
+      'pytest',
+      'NLP',
+      'Machine Learning',
+    ],
   },
-
-  // ---------------------------------------------------------------------------
-  // ADD MORE POSITIONS HERE
-  // Copy the template below and fill in your details
-  // ---------------------------------------------------------------------------
-  // {
-  //   id: 'exp-4',
-  //   title: 'Your Job Title',
-  //   company: 'Company Name',
-  //   companyLogo: '/logos/company.png',  // Optional
-  //   location: 'City, Country',
-  //   type: 'full-time',
-  //   startDate: 'YYYY-MM',
-  //   endDate: 'YYYY-MM',  // Remove for current position
-  //   current: false,
-  //   description: 'Brief description of your role and responsibilities.',
-  //   achievements: [
-  //     'Achievement with metrics...',
-  //     'Another achievement...',
-  //   ],
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  // },
 ];
 
 // =============================================================================
