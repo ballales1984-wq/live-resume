@@ -21,6 +21,9 @@ The template is fully implemented with all core sections working. It's ready for
 - [x] Centralized configuration in site.config.ts
 - [x] Memory bank migrated to .kilocode/rules/memory-bank/
 - [x] CV compiled with Alessio Ballini's profile data (profile, experience, skills, projects)
+- [x] Skills enriched from GitHub analysis (TypeScript, C++, React, Angular, FastAPI, spaCy, JUCE, etc.)
+- [x] Education added: ITIS Luzzatti (Diploma Informatica, 70/100)
+- [x] Site config updated: Italian locale, SEO keywords
 
 ## Components Implemented
 
@@ -100,3 +103,4 @@ Edit `src/config/site.config.ts` → `features`:
 |------|----------|
 | 2026-01-22 | Memory bank updated to match .kilocode standard structure |
 | 2026-03-30 | CV compiled with Alessio Ballini's LinkedIn data - all data files updated (profile, experience, skills, education, projects) |
+| 2026-03-30 | GitHub profile analysis - 25 new skills added, 4 new projects, site config updated to Italian locale |
