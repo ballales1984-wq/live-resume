@@ -20,6 +20,7 @@ The template is fully implemented with all core sections working. It's ready for
 - [x] Dark mode support
 - [x] Centralized configuration in site.config.ts
 - [x] Memory bank migrated to .kilocode/rules/memory-bank/
+- [x] CV compiled with Alessio Ballini's profile data (profile, experience, skills, projects)
 
 ## Components Implemented
 
@@ -98,3 +99,4 @@ Edit `src/config/site.config.ts` → `features`:
 | Date | Activity |
 |------|----------|
 | 2026-01-22 | Memory bank updated to match .kilocode standard structure |
+| 2026-03-30 | CV compiled with Alessio Ballini's LinkedIn data - all data files updated (profile, experience, skills, education, projects) |
