@@ -135,10 +135,10 @@ export const siteConfig: SiteConfig = {
   // ---------------------------------------------------------------------------
   meta: {
     titleTemplate: '{{name}} | {{title}}',
-    defaultDescription: 'Professional resume and portfolio website',
-    keywords: ['resume', 'portfolio', 'developer', 'software engineer', 'web developer'],
-    siteUrl: 'https://your-domain.com',
-    locale: 'en',
+    defaultDescription: 'CV di Alessio Ballini - Full-Stack Developer & AI Specialist',
+    keywords: ['python developer', 'full-stack', 'AI', 'machine learning', 'NLP', 'flask', 'fastapi', 'portfolio'],
+    siteUrl: 'https://live-resume.vercel.app',
+    locale: 'it',
   },
 
   // ---------------------------------------------------------------------------

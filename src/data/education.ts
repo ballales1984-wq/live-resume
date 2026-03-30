@@ -154,7 +154,16 @@ export interface Award {
  * List in reverse chronological order (most recent first).
  */
 export const education: Education[] = [
-  // Nessun dato di istruzione fornito - aggiungere qui se necessario
+  {
+    id: 'edu-1',
+    degree: 'Diploma',
+    field: 'Informatica e Telecomunicazioni',
+    school: 'ITIS Luzzatti',
+    location: 'Venezia, Italia',
+    startYear: 2000,
+    endYear: 2005,
+    gpa: '70/100',
+  },
 ];
 
 /**
